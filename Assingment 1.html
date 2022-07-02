@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+  max-width: 700px;
+  margin: auto;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #441313;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 150px;
+  width: 100%;
+  background-color: #976464;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #48acac;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #1d7a7a;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+    font-size: small;
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+</style>
+<body>
+   
+    
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <!-- about, contact, work or services. -->
+  <!-- • Your work samples and skills in your portfolio with your name and pictures.
+   • Add your CV there and host your complete portfolio on GitHub account.
+   • In header section mention some menus like about, contact, work or services.
+   • At the top add one of your images and introduce yourself there. Below that add some work samples
+   • At last (footer) add contact information and social media account.
+  Refer https://codepen.io/freeCodeCamp/full/zNBOYG -->
+
+<div class="topnav">
+    <a class="active" href="About">About</a>
+    <a href="#Work and services ">Work and services</a>
+    <a href="#Contact">Contact</a>
+    
+  </div>
+
+  <img src="My pic.jpeg" width="200" height ="220">
+  <h1>Resume</h1>
+  <h2>Ayush Raj</h2>
+  <hr />
+  <br>
+  <p >Hi this is Ayush Raj </p>
+  <p >I am pursuing B.E. in C.S.E. from UIET CHANDIGARH (PU) </p>
+  <p >I am a web development enthusiast ;)  </p>
+  <p class="head">Work</p>
+  <ul>
+<li>Movie Hall Management System in Cpp</li>
+<li>Hospital Management System in SQL and PL-SQL</li>
+
+
+  </ul>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Surfing Internet</li>
+    <li>Shopping</li>
+    <li>Baking</li>
+    <li>Swimming</li>
+    <li>Singing</li>
+   
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li> HTML & CSS</li>
+    <li> Sql</li>
+    <li> C++</li>
+    <li> C</li>
+    <li> Basics of Phython and Java Script </li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a>
+      <li>G.D Goenka Public School , Lucknow</li>
+    </a>
+    <!--Link-->
+    
+
+  </ul>
+  <p class="head">Experience</p>
+  <ul>
+    <li>Departmental Head in Euphoria !! </li>
+  </ul>
+  <section id="s1">
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Competetive Programming</li>
+    <li>Euphoria</li>
+  </ul>
+  </section>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">ue203029.ayush.cse@gmail.com
+    <br>Call: 7007118482
+    </h2></div>
+ 
+    
+</body>
+</html>
